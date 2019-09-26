@@ -44,7 +44,8 @@ global.gameOver = true;
 global.speedModifier = 0;
 image_speed = 0;
 grav = 0;
-	
+	show_debug_message("hello");
+
 	
 if (global.bday)
 {

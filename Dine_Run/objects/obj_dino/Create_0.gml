@@ -1,3 +1,4 @@
+lev = 0;
 grav = 7;
 jspd = 50;
 vspd = 0;
