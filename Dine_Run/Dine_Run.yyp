@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "17cf2b70-db0a-49b2-9b45-28917364e24e",
+            "Value": {
+                "id": "28a62822-1e18-4e5a-8e08-7fe066bc14e8",
+                "resourcePath": "objects\\obj_upgrades_controller\\obj_upgrades_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "193770f1-de8d-4eda-9058-6f1ae25b7d71",
             "Value": {
                 "id": "2f9247c5-9256-4633-a504-ecc3d1bf848a",
