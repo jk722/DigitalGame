@@ -1,8 +1,8 @@
 global.speedModifier += 0.0005; //increase global speed slowly
 score += 1 * global.speedModifier; //The score
-
-
-if(score == 100){
-	show_debug_message("score is 100");
-	lev = 1;
+if(score > global._score)
+{
+	show_debug_message("score is greater then score");
+	global._score = score;
 }
+
