@@ -5,4 +5,3 @@ global._score += ceil(1 * global.speedModifier); //The score
 //{
 //	global._score = score;
 //}
-global.coins = ceil(global._score / 10);

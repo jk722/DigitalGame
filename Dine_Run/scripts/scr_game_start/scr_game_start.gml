@@ -1,6 +1,7 @@
-show_debug_message("scr_game_start");
+//show_debug_message("scr_game_start");
 global.gameOver = false;
 global.speedModifier = 1;
+global._score = 0;
 // start creating obstacles
 
 with(obj_controller){
@@ -30,4 +31,7 @@ else
 }
 
 image_speed = 0;
+}
+with(obj_obstacle){
+instance_destroy();
 }

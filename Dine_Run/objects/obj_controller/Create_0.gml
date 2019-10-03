@@ -1,3 +1,2 @@
 
-global.speedModifier = 0;
 

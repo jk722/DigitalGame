@@ -4,5 +4,5 @@ draw_set_font(fnt_main);
 //draw_text(room_width/2, room_height/2, string(global.speedModifier));
 draw_text(room_width - 100, 10, string(global._score));
 
-if (global.gameOver)
+if (global.gameOver && global._score > 0)
 	draw_sprite(spr_game_over, 0, room_width/2, room_height/2);

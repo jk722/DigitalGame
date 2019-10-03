@@ -9,9 +9,3 @@ repeat(buttons){
 	i++;
 }
 
-if(r == 1){
-	str = "Need to unlock level";
-	draw_set_color(c_aqua);
-	draw_text(room_width/2, room_height - 100, str);
-	
-}

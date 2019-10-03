@@ -10,8 +10,14 @@ if (!instance_exists(obj_replay))
 {
 	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_replay);
 }	
+if (!instance_exists(obj_home))
+{
+	instance_create_layer(room_width/2 + 150, room_height/2 + 50, "Instances", obj_home);
+}
 with (obj_obstacle)
 {
 	speed = 0;
 	image_speed = 0;	
 }
+
+
