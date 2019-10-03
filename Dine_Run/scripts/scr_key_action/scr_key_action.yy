@@ -1,8 +1,8 @@
 {
-    "id": "fdd7caa9-20be-4b65-a91d-404494d88424",
+    "id": "5a7ef942-d1c5-47ed-ab7f-ecc79e5b05e5",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_collision_check",
+    "name": "scr_key_action",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -6,7 +6,7 @@ i.sprite_index = choose(spr_cactus_small, spr_cactus_large, spr_pterodactyl); //
 switch (i.sprite_index) //DO SPECIAL THINGS FOR EACHCASE.
 {
 	case spr_cactus_small:
-	case spr_cactus_large:
+	case spr_cactus_large: 
 		i.image_speed = 0;
 		
 		if (global.speedModifier > 1.5) //Code to spawn a double cactis

@@ -1,40 +1,11 @@
-if (jumping || falling)
+if (space)
 {
-	if (global.bday)
-	{
-		sprite_index = spr_dino_stand_bday;
-	}
-	else
-	{
-		sprite_index = spr_dino_stand;
-	}
+	sprite_index = spr_dino_run_hit;
 }
 	
-if (ducking)
-{
-	if (global.bday)
-	{
-		sprite_index = spr_dino_duck_bday;
-	}
-	else
-	{
-		sprite_index = spr_dino_duck;
-	}
-	
-	
-	image_speed = 2;
-}
 
-if (!jumping && !falling && !ducking)
+if (!space)
 {
-	if (global.bday)
-	{
-		sprite_index = spr_dino_run_bday;
-	}
-	else
-	{
-		sprite_index = spr_dino_run;
-	}
-	
+	sprite_index = spr_dino_run;
 	image_speed = 2;
 }
