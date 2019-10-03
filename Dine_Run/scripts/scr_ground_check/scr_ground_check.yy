@@ -1,8 +1,8 @@
 {
-    "id": "57543421-e745-4444-805b-d4e2ebdf4135",
+    "id": "f60a313f-7491-412c-8940-6d3266ba2991",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_gameover",
+    "name": "scr_ground_check",
     "IsCompatibility": false,
     "IsDnD": false
 }

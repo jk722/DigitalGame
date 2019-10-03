@@ -2,8 +2,7 @@
 // You can write your code in this editor
 switch(menu_index){
 	case 0:
-		scr_game_start();
-		instance_destroy();
+		room_goto(rm_game);
 		break;
 	case 1:
 	if(global._score >= 100){

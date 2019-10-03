@@ -1,4 +1,3 @@
-if (global.gameOver) exit;
 speed = -5 * global.speedModifier;
 
 if (x < -100)
