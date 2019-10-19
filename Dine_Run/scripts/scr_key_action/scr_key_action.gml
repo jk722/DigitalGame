@@ -20,3 +20,9 @@ if(upKey){
 	up = true;
 	//}
 }
+if(downKey){
+	down = true;
+}else{
+	down = false;
+	}
+	

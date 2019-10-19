@@ -37,6 +37,8 @@ if(up){
 	}	
 	y += 10 * global.speedModifier;
 }
-
+if(down){
+	sprite_index = spr_dino_duck;
+}
 
 
