@@ -12,7 +12,7 @@ if (!space)
 
 //--------Jump Logic-----------
 
-if(up){
+if(up && isFalling == false){
 	if(y != 585){
 	y -= 10 * global.speedModifier;
 	if(y <= 560){	
@@ -20,7 +20,7 @@ if(up){
 	}
 	if(round(y) <= 485){
 	up = false;
-	//isFalling = true;
+	isFalling = true;
 	}
 	}
 	

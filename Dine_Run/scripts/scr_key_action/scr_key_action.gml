@@ -25,4 +25,7 @@ if(downKey){
 }else{
 	down = false;
 	}
+if(upKeyHold){
+	upHold = true;
+}
 	
