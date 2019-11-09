@@ -5,8 +5,8 @@ global._score = 0;
 with(obj_obstacle){
 instance_destroy();
 }
-with(obj_dino){
-	sprite_index = spr_dino_stand;
+with(obj_player){
+	sprite_index = spr_player_knight_idle;
 }
 with(obj_cloud){
 instance_destroy();

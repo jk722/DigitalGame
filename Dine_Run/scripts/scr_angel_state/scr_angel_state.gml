@@ -1,5 +1,9 @@
-sprite_index = spr_cactus_large;
-_speed = 2
+sprite_index = spr_angel_flying;
+image_speed = 1;
+obj_player.Bar -= 0.1 *global.speedModifier;
+if(obj_player.Bar <= 0)
+	obj_player.Bar = 0;
+_speed = 4;
 if(upHold){
 y -= _speed ;
 upHold = false;
@@ -11,6 +15,6 @@ down = false;
 if(space){
 var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
 bullet.direction = point_direction(x,y,x+100,y);
-bullet.speed = 10;
+bullet.speed = 100;
 space = false;
 }
