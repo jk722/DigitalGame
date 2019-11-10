@@ -3,7 +3,9 @@ global.gameOver = false;
 global.speedModifier = 1;
 global._score = 0;
 // start creating obstacles
-
+with(obj_player){
+	obj_player.Bar = obj_player.MaxBar;	
+}
 with(obj_controller){
 alarm[0] = room_speed * 3;
 
@@ -11,7 +13,7 @@ alarm[0] = room_speed * 3;
 alarm[1] = room_speed * 10;
 
 //start creating cakes
-alarm[2] = room_speed * 20;
+alarm[2] = room_speed * 11;
 
 //start creating inverse obstacles
 alarm[3] = room_speed * 7;
@@ -33,5 +35,16 @@ else
 image_speed = 0;
 }
 with(obj_obstacle){
+instance_destroy();
+}
+with(obj_bat){
+instance_destroy();
+}with(obj_executioner){
+instance_destroy();
+}
+with(obj_gap){
+instance_destroy();
+}
+with(obj_bullet){
 instance_destroy();
 }

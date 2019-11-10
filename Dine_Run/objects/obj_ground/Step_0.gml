@@ -15,12 +15,13 @@ if (x < 0 && global.prev == -1)
 	}else if (n == 1){
 		image_index = 4;
 		global.prev++;
+		//break;
 	}else
 	{
 		image_index = choose(0, 3);
 	}
 		
-}else{
+}else if(x < 0 && global.prev < -1){
 
 switch global.prev{
 	case 0:
@@ -40,7 +41,7 @@ switch global.prev{
 		global.prev = -1;
 		break;
 }
-move_wrap(true, false, sprite_get_width(sprite_index));
 }
+move_wrap(true, false, sprite_get_width(sprite_index));
 
 

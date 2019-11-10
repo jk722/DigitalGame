@@ -40,13 +40,16 @@ if(up && isFalling == false){
 	}	
 	y += 10 * global.speedModifier;
 }
+
 if(down){
+	
 	sprite_index = spr_player_knight_slide;
 	x += 35 * global.speedModifier;
-	//show_debug_message(x);
 	if(ceil(x) >= 369){
 		x = 369;
-	}
+}
+	//show_debug_message(x);
+			
 }
 
 

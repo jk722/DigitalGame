@@ -6,7 +6,7 @@ if(spaceKey)
 }
 if(altKey && alt == false)
 {
-	alt = true
+	alt = true;
 	
 }else if(altKey && alt == true)
 {

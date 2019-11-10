@@ -63,11 +63,27 @@
             }
         },
         {
+            "Key": "0cd8703f-018a-479d-b529-952f94c52dfc",
+            "Value": {
+                "id": "a716b1ed-0d77-4f26-99c2-795ea658cb50",
+                "resourcePath": "sprites\\spr_gap_attack\\spr_gap_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ef1859c-ec11-46c0-9b20-4651294fb2ff",
             "Value": {
                 "id": "956cab5e-55a3-4bbd-9d67-077e05b0375e",
                 "resourcePath": "sprites\\spr_health_bar\\spr_health_bar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1334563e-7c5d-44fb-8fe7-37ff1b262b6c",
+            "Value": {
+                "id": "7f97683d-7d2d-48dd-89bc-006c3b9c6731",
+                "resourcePath": "scripts\\scr_gap\\scr_gap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "cbd93aa0-2dc1-4810-afd2-3329cec1e41f",
+            "Value": {
+                "id": "7ba28682-0e3c-4a1b-8c45-ac7a4371f0ea",
+                "resourcePath": "objects\\obj_gap\\obj_gap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "2f9229e2-92d0-4f3b-9793-a764ca945758",
@@ -763,7 +787,8 @@
         "d364b878-8d22-44d0-9a0a-0cb0bfa4f1b7",
         "3bb46f97-1e2c-4049-85e3-d50fe5eb39fb",
         "bad432ea-9cf3-4f36-bebe-f1de0b5fce97",
-        "d226f9bc-7055-4ca5-bca6-abda8cf2cb47"
+        "d226f9bc-7055-4ca5-bca6-abda8cf2cb47",
+        "1334563e-7c5d-44fb-8fe7-37ff1b262b6c"
     ],
     "tutorial": ""
 }

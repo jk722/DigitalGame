@@ -1,5 +1,5 @@
 randomize();
-var count = irandom_range(1, 2); //Random number to see if you spawn a double cacti
+var count = irandom_range(1, 3); //Random number to see if you spawn a double cacti
 
 switch count{
 	case 1:
@@ -10,6 +10,11 @@ switch count{
 	case 2:
 		if(!instance_exists(obj_bat)){
 		var i = instance_create_layer(room_width + 100, room_height - 400, "Instances", obj_bat);
+		}
+		break;
+	case 3: 
+	if(!instance_exists(obj_gap)){
+		var i = instance_create_layer(room_width + 100, room_height - 50, "Instances", obj_gap);
 		}
 		break;
 	default:

@@ -1,9 +1,11 @@
 sprite_index = spr_angel_flying;
 image_speed = 1;
-obj_player.Bar -= 0.1 *global.speedModifier;
-if(obj_player.Bar <= 0)
+obj_player.Bar -= 1 *global.speedModifier;
+if(obj_player.Bar <= 0){
 	obj_player.Bar = 0;
-_speed = 4;
+	alt = false;
+}
+_speed = 8;
 if(upHold){
 y -= _speed ;
 upHold = false;
