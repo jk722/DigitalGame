@@ -6,9 +6,8 @@ r = 0;
 button_h = 32;
 tmrDone = false;
 
-button[0] = "Level 1";
-button[1] = "Upgrades";
-button[2] = "Exit";
+button[0] = "Start";
+button[1] = "Exit";
 buttons = array_length_1d(button);
 
 menu_index = 0;

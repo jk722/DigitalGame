@@ -5,6 +5,7 @@ global._score = 0;
 // start creating obstacles
 with(obj_player){
 	obj_player.Bar = obj_player.MaxBar;	
+	alt = false;
 }
 with(obj_controller){
 alarm[0] = room_speed * 3;
@@ -34,6 +35,7 @@ else
 
 image_speed = 0;
 }
+
 with(obj_obstacle){
 instance_destroy();
 }

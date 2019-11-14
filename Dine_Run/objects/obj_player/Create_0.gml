@@ -1,4 +1,6 @@
 isFalling = false;
+angelState = false;
+stateChange = false;
 space = false;
 upHold = false;
 down = false;

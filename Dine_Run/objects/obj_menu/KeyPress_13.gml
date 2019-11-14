@@ -7,7 +7,5 @@ switch(menu_index){
 		break;
 	case 1:
 		break;
-	case 2:
-		break;
 	
 }

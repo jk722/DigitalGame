@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "05d6cf66-a32f-402e-9e00-d252ca8cfa95",
+            "Value": {
+                "id": "3278c709-fe05-4825-9168-3be4e084d777",
+                "resourcePath": "sprites\\spr_player_knight_attack\\spr_player_knight_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0857976f-5316-4b18-a3a9-f3d98adeb9e3",
+            "Value": {
+                "id": "edd5ba4b-bcfd-40a5-bbd4-d6edd102f356",
+                "resourcePath": "sprites\\spr_blank\\spr_blank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a0261f2-5260-46c3-9b14-04edc3724f8e",
             "Value": {
                 "id": "b802eb80-fa79-4ba9-b7b4-b7262f82e438",
@@ -139,6 +155,14 @@
             "Value": {
                 "id": "10d17ce4-1af9-43ef-9b96-9cf8a98eb2fa",
                 "resourcePath": "objects\\obj_cloud\\obj_cloud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "214aa745-5b4d-4388-9bf1-38668b047eaa",
+            "Value": {
+                "id": "be78190e-8f14-4fcd-98a8-46b1a33cc81d",
+                "resourcePath": "objects\\obj_projectile\\obj_projectile.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -395,6 +419,22 @@
             "Value": {
                 "id": "73b45626-1bb0-42c7-9edf-c1245a8d2b02",
                 "resourcePath": "sprites\\spr_player_knight_idle\\spr_player_knight_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "888eab34-5205-45fb-9e68-223835431791",
+            "Value": {
+                "id": "d9d8711a-8f7d-4e8e-bafc-073f2ddf3bfc",
+                "resourcePath": "sprites\\spr_angel_projectile\\spr_angel_projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ebfcd23-f1d7-4fb6-b145-da54e57ac3e1",
+            "Value": {
+                "id": "f00500b4-bdbe-483a-9b3d-b17c18f4a89b",
+                "resourcePath": "sprites\\spr_knight_to_angel\\spr_knight_to_angel.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -703,6 +743,14 @@
             }
         },
         {
+            "Key": "e7b93586-9e50-409a-9909-1c2ce604d41e",
+            "Value": {
+                "id": "dfbd261d-417d-4831-81d4-9f77628d7f01",
+                "resourcePath": "sprites\\spr_angel_to_knight\\spr_angel_to_knight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7bce382-18bc-45ad-b06e-ef6be9f2994a",
             "Value": {
                 "id": "f4f19274-03e7-4b42-863c-8ddb22f1a89f",
@@ -756,6 +804,14 @@
                 "id": "07623226-d89c-4810-8e81-d539c233dae3",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7b16870-8f26-410f-ba4f-3e85bc537de2",
+            "Value": {
+                "id": "138bd145-17cb-4b07-84ef-45c56a75363d",
+                "resourcePath": "sprites\\spr_angel_attack\\spr_angel_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,4 +1,4 @@
-//instance_create_layer(room_width + 100, room_height - 75, "Instances", obj_gap);
+instance_create_layer(room_width + 100, room_height - 75, "Instances", obj_inverse);
 
 if (global.gameOver) exit;
 

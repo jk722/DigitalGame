@@ -1,15 +1,28 @@
+if(angelState==true && stateChange == true){
+angelState = false;
+stateChange = false;
+}
+if(angelState == false && stateChange == false && Bar != 0){
+	sprite_index = spr_angel_to_knight;	
+	image_speed = 0.25;
+}
 
+if(image_index == image_number-1)
+	{
+		stateChange = true
+	}
+if(stateChange)
+	{
+		sprite_index = spr_player_knight_run;
+		image_speed = 1;
+	}
 if (space)
 {
-	sprite_index = spr_dino_run_hit;
+	sprite_index = spr_player_knight_attack;
+	image_speed = 0.25;
 }
 	
 
-if (!space)
-{
-	sprite_index = spr_player_knight_run;
-	image_speed = 1;
-}
 
 //--------Jump Logic-----------
 
