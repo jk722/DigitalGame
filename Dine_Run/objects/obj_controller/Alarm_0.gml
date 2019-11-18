@@ -1,5 +1,5 @@
 randomize();
-var count = irandom_range(1, 3); //Random number to see if you spawn a double cacti
+var count = irandom_range(1, 4); //Random number to see if you spawn a double cacti
 
 switch count{
 	case 1:
@@ -13,7 +13,10 @@ switch count{
 		}
 		break;
 	case 3:
-		var i = instance_create_layer(room_width + 100, room_height - 400, "Instances", obj_obstacle);
+		var i = instance_create_layer(room_width + 100, room_height -100, "Instances", obj_obstacle);
+		break;
+	case 4:
+		var i = instance_create_layer(room_width + 100, room_height - 200, "Instances", obj_angler);
 		break;
 		
 }

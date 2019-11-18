@@ -3,6 +3,9 @@ speed = -20 * global.speedModifier;
 if (global.gameOver) exit;
 if(global._score >= 1000){
 	sprite_index = spr_background_2;
+	if(image_index == 2){
+	instance_create_layer(x,y,"Instances",obj_sewer_water);
+}
 }
 
 if(ceil(x) <= -100){
