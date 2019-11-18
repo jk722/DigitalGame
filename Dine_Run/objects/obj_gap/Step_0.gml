@@ -7,5 +7,5 @@ if (x < -100) //Check to see if instance is off the creen by 100 pixels and then
 {
 	instance_destroy();
 }
-scr_gap();
+
 

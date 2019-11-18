@@ -1,47 +1,29 @@
 
 speed = -20 * global.speedModifier;
 if (global.gameOver) exit;
+if(global._score >= 1000){
+	sprite_index = spr_background_2;
+}
 
-
-
-if (x < 0 && global.prev == -1)
-{
+if(ceil(x) <= -100){
 	randomize();
-	var n = irandom(10);
-	n=1;
-	if (n == 0)
+var n = irandom(10);
+if (n == 0)
 	{
-		image_index = choose(1, 2);
-	}else if (n == 1){
-		image_index = 4;
-		global.prev++;
-		//break;
-	}else
-	{
-		image_index = choose(0, 3);
-	}
+		image_index = 2;
 		
-}else if(x < 0 && global.prev < -1){
+	}
+else
+	{
+		image_index = choose(0,1);
+	}		
+image_speed = 0;
+}
+if(image_index == 2 && sprite_index == spr_background_1){
+	instance_create_layer(x,y,"Instances",obj_gap);
+}
 
-switch global.prev{
-	case 0:
-		image_index = 5;
-		global.prev++;
-		break;
-	case 1:
-		image_index = 6;
-		global.prev++;
-		break;
-	case 2:
-		image_index = 7;
-		global.prev++;
-		break;
-	case 3:
-		image_index = 8;
-		global.prev = -1;
-		break;
-}
-}
-move_wrap(true, false, sprite_get_width(sprite_index));
+move_wrap(true, false, sprite_width);
+
 
 
