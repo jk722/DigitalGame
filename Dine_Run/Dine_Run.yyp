@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "0cd964d8-2173-49df-989f-5a8094e6a3a9",
-            "Value": {
-                "id": "8737171b-2632-4d15-b2ea-f89c3660572a",
-                "resourcePath": "sprites\\spr_background_1\\spr_background_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0ef1859c-ec11-46c0-9b20-4651294fb2ff",
             "Value": {
                 "id": "956cab5e-55a3-4bbd-9d67-077e05b0375e",
@@ -407,6 +399,14 @@
             }
         },
         {
+            "Key": "86e457c3-d395-4b9b-8b90-ae3756178d1a",
+            "Value": {
+                "id": "52480ce3-f9dd-4c35-9416-bd60ef8da34a",
+                "resourcePath": "sprites\\spr_background_2\\spr_background_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "875930f8-3b2c-49e7-94d4-41a893a3d5bd",
             "Value": {
                 "id": "d8381493-e2c3-4b6f-bcbe-f0123115e272",
@@ -451,14 +451,6 @@
             "Value": {
                 "id": "f00500b4-bdbe-483a-9b3d-b17c18f4a89b",
                 "resourcePath": "sprites\\spr_knight_to_angel\\spr_knight_to_angel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8fbe83b4-27bd-48df-b3c8-c61243855806",
-            "Value": {
-                "id": "e592263a-27f7-408a-a223-d6ffe33225f8",
-                "resourcePath": "sprites\\spr_background_2\\spr_background_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -772,6 +764,14 @@
                 "id": "604afd1b-48fd-4486-ad82-8bec5011a406",
                 "resourcePath": "rooms\\rm_upgrades\\rm_upgrades.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e2e41770-f9ea-4b92-94a4-175a478e43d4",
+            "Value": {
+                "id": "204021eb-ee0f-457c-bad7-bb5847b1ed1e",
+                "resourcePath": "sprites\\spr_background_1\\spr_background_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
